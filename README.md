@@ -2,7 +2,7 @@
  
 NCSの音楽を一括ダウンロードするためのPythonスクリプトです。/This is to download all musics of NCS.
 
-# DEMO
+# How to use
 
 main.pyを実行するだけで同ディレクトリ内のmusicsフォルダに全曲がダウンロードされます。/Just run main.py and all songs will be downloaded to the musics folder in the same directory.
 

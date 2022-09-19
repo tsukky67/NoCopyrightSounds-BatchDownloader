@@ -32,6 +32,11 @@ while True:
         dls[0].click()
         time.sleep(5)
         close = driver.find_elements(By.XPATH,'//*[@id="download"]/div[1]/a/i')
-        close[0].click()
-
+        try:
+            close = driver.find_elements(By.XPATH,'//*[@id="download"]/div[1]/a/i')
+            close[0].click()
+        except IndexError:
+            driver.back()
+            close = driver.find_elements(By.XPATH,'//*[@id="download"]/div[1]/a/i')
+            close[0].click()
 print("Done")

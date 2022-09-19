@@ -29,8 +29,8 @@ while True:
         element.click()
         time.sleep(2)
         dls = driver.find_elements(By.XPATH,'//*[@id="download"]/div[2]/div[1]/a[1]')
-        dls[0].click(5)
-        time.sleep()
+        dls[0].click()
+        time.sleep(5)
         close = driver.find_elements(By.XPATH,'//*[@id="download"]/div[1]/a/i')
         close[0].click()
 

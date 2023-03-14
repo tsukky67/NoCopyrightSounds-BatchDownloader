@@ -25,4 +25,4 @@ pip install chromedriver-binary
 
 # Note
 
-chromedriverのバージョンがインストールされているchromeのバージョンと一致しない場合動かない恐れがあるので一致するバージョンのものを/If the version of chromedriver does not match the installed version of chrome, it may not work, so please install the matching version.
+chromedriverのバージョンがインストールされているchromeのバージョンと一致しない場合動かない恐れがあるので一致するバージョンの利用を推奨します。/If the version of chromedriver does not match the installed version of chrome, it may not work, so please install the matching version.
